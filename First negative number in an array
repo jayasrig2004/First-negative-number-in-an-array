@@ -1,0 +1,7 @@
+arr = [3, 7, 0, -2, 5, -6]
+result = find_first_negative(arr)
+
+if result is not None:
+    print(f"The first negative number is: {result}")
+else:
+    print("There is no negative number in the array.")
